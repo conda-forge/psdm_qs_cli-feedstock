@@ -5,13 +5,13 @@ Home: https://github.com/slaclab/psdm_qs_cli
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/psdm_qs_cli-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python clients for interacting with SLAC National Accelerator Laboratory's
 PCDS LCLS experimental questionnaire
 
 
-
+Development: https://github.com/slaclab/psdm_qs_cli
 
 Current build status
 ====================
@@ -120,4 +120,6 @@ Feedstock Maintainers
 
 * [@hhslepicka](https://github.com/hhslepicka/)
 * [@klauer](https://github.com/klauer/)
+* [@zllentz](https://github.com/zllentz/)
+* [@zrylettc](https://github.com/zrylettc/)
 
