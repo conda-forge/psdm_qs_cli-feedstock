@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: c2d3c45363c985f40fee0555ba2011301a0cabdf5fa3a8d95bb53b0623e879b8
 
 build:
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
   entry_points:
@@ -36,8 +36,8 @@ test:
     - QSGenerateJSON.py --help
 
 about:
-  home: https://github.com/slaclab/psdm_qs_cli
-  dev_url: https://github.com/slaclab/psdm_qs_cli
+  home: https://github.com/pcdshub/psdm_qs_cli
+  dev_url: https://github.com/pcdshub/psdm_qs_cli
   summary: |
      Python clients for interacting with SLAC National Accelerator Laboratory's
      PCDS LCLS experimental questionnaire
