@@ -1,7 +1,7 @@
 About psdm_qs_cli
 =================
 
-Home: https://github.com/slaclab/psdm_qs_cli
+Home: https://github.com/pcdshub/psdm_qs_cli
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: Python clients for interacting with SLAC National Accelerator Laborator
 PCDS LCLS experimental questionnaire
 
 
-Development: https://github.com/slaclab/psdm_qs_cli
+Development: https://github.com/pcdshub/psdm_qs_cli
 
 Current build status
 ====================
