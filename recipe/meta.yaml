@@ -1,5 +1,5 @@
 {% set name = "psdm_qs_cli" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: c2d3c45363c985f40fee0555ba2011301a0cabdf5fa3a8d95bb53b0623e879b8
+  sha256: 8f9d794b9db3812e5226437baac31d41b3ed9836010552bde94848df88074782
 
 build:
-  number: 3
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
   entry_points:
@@ -48,5 +48,6 @@ about:
 extra:
   recipe-maintainers:
     - klauer
+    - tangkong
     - zrylettc
     - zllentz
