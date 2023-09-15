@@ -25,9 +25,7 @@ requirements:
   run:
     - python >=3.9
     - krtc
-    - six
     - requests
-    - openpyxl
 
 test:
   imports:
