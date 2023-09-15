@@ -1,5 +1,5 @@
 {% set name = "psdm_qs_cli" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: de718418e1e6b1d9e7322e4a729ea76f9a52de0648be59ccc60a2fee34b9fd71
+  sha256: eb359042ff51ab519b99ab47c9f0f790ef34438f9fa5a884a1a63be069431fa9
 
 build:
   number: 0
@@ -25,9 +25,8 @@ requirements:
   run:
     - python >=3.9
     - krtc
-    - six
-    - requests
     - openpyxl
+    - requests
 
 test:
   imports:
