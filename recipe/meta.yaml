@@ -1,5 +1,5 @@
 {% set name = "psdm_qs_cli" %}
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: eb359042ff51ab519b99ab47c9f0f790ef34438f9fa5a884a1a63be069431fa9
+  sha256: f210948ac8a61c491ff33d0111486fb220bd8f4befaddbfff42aa776b3916916
 
 build:
   number: 0
