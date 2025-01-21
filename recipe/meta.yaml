@@ -10,7 +10,7 @@ source:
   sha256: f210948ac8a61c491ff33d0111486fb220bd8f4befaddbfff42aa776b3916916
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
   entry_points:
@@ -19,17 +19,19 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - krtc
     - openpyxl
     - requests
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - psdm_qs_cli
   commands:
